@@ -78,4 +78,77 @@ For all subtasks:
 
     11
 
-T
+This example satisfies the conditions of Subtask 1, 2, 3 and 4.
+
+---
+
+### Example 2
+
+#### Input
+
+    6 2
+    0 0 0 0 0 0
+    -1 -2 -1 -2 -1 -2
+
+#### Output
+
+    0
+
+This example satisfies the conditions of Subtask 1, 2, 3 and 4.
+
+---
+
+### Example 3
+
+#### Input
+
+    6 2
+    3 3 3 2 1 7
+    1 2 1 7 7 2
+
+#### Output
+
+    30
+
+This example satisfies the conditions of Subtask 3 and 4.
+
+---
+
+### Example 4
+
+#### Input
+
+    6 4
+    1 9 0 6 6 6
+    9 1 9 1 7 3
+
+#### Output
+
+    45
+
+This example satisfies the conditions of Subtask 4.
+
+---
+
+### Example 5
+
+#### Input
+
+    1 0
+    -5
+    5
+
+#### Output
+
+    -5
+
+This example satisfies the conditions of Subtask 3 and 4.
+
+---
+
+## Notes
+
+- There are no partial scores within a subtask.
+- You must pass all test cases in a subtask to earn the points assigned to it.
+
+---
