@@ -5,6 +5,6 @@ CSE4152, Sogang Univ, 2025 Fall Semester에 진행된 중간고사/기말고사 
 - https://www.acmicpc.net/category/1069
 
 이 GitHub 저장소는 다음 목적을 위해 만들었습니다.
-- 문제 해설 공유
+- 문제 해설 공유 (예정)
 - 테스트 케이스 공유
 - 문제 구성 코드 공유 및 관리
