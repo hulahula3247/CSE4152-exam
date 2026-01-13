@@ -30,7 +30,7 @@ In other words, choose two distinct vertices that share a common neighbor so tha
   a와 b가 직접 간선으로 연결되어 있더라도(최단 거리가 1이어도), 길이 2 경로가 하나라도 존재하면 조건을 만족한다.
 - 경로의 정의는 다음과 같다: 경로란 정점들을 차례대로 나열한 것으로, 이웃한 두 정점 사이마다 간선이 있는 것을 말한다. 경로의 길이는 지나가는 간선의 개수이다. 한 경로에는 같은 정점이 반복해서 포함될 수 있다.
 
-조건을 만족하는 모든 정점 쌍 (a, b)에 대해서 **|Aₐ + A_b|의 최솟값을 구하여라**.  
+조건을 만족하는 모든 정점 쌍 (a, b)에 대해서 **|A_a + A_b|의 최솟값을 구하여라**.  
 즉 서로 다른 두 정점의 가중치의 합의 절댓값이 최소가 되도록 하여라.
 
 ---
@@ -45,7 +45,7 @@ In other words, choose two distinct vertices that share a common neighbor so tha
 
 ## Output
 
-- Print a single integer: the minimum value of **|Aₐ + A_b|** among all pairs of distinct vertices (a, b) such that there exists at least one path of length exactly 2 between a and b. It is guaranteed that at least one such pair (a, b) exists.
+- Print a single integer: the minimum value of **|A_a + A_b|** among all pairs of distinct vertices (a, b) such that there exists at least one path of length exactly 2 between a and b. It is guaranteed that at least one such pair (a, b) exists.
 
 ---
 
@@ -82,7 +82,7 @@ For all subtasks:
 
     7
 
-There is a path of length 2 between vertices (1, 2), namely 1-3-2. On the other hand, there is no path of length 2 between (1, 3) or (2, 3), so the only valid pair (a, b) is (1, 2). In this case, |Aₐ + A_b| = 7.  
+There is a path of length 2 between vertices (1, 2), namely 1-3-2. On the other hand, there is no path of length 2 between (1, 3) or (2, 3), so the only valid pair (a, b) is (1, 2). In this case, |A_a + A_b| = 7.  
 This example satisfies the conditions of all subtasks.
 
 ---
