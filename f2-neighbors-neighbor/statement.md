@@ -15,7 +15,7 @@ You want to choose two **distinct** vertices a and b that satisfy the following 
   Note that if a and b are directly connected by an edge (i.e., their shortest distance is 1), the condition is satisfied as long as there exists at least one path of length 2 between them.
 - The definition of a path is as follows: A path is a sequence of vertices such that every two consecutive vertices are connected by an edge. The length of a path is the number of edges it uses. A path may contain the same vertex multiple times.
 
-Among all pairs of vertices (a, b) that satisfy the condition, **find the minimum possible value of |Aₐ + A_b|**.  
+Among all pairs of vertices (a, b) that satisfy the condition, **find the minimum possible value of |A_a + A_b|**.  
 In other words, choose two distinct vertices that share a common neighbor so that the absolute value of the sum of their weights is as small as possible.
 
 ---
