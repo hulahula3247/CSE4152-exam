@@ -318,3 +318,5 @@ if __name__ == "__main__":
     write_file(N, -1, plusarr(rw(N)), star_tree(N), sub=3)
     write_file(N, -1, plusarr(rw(N)), random_graph(N, func=long_tree), sub=3)
     write_file(N, -1, plusarr(rw(N)), random_graph(N, func=star_tree), sub=3)
+    write_file(N, -1, plusarr(rw(N)), snipe_sqrt(N, func=star_tree, P=20000), sub=3)
+    write_file(N, -1, plusarr(rw(N)), snipe_sqrt(N, func=star_tree, P=20), sub=3)
