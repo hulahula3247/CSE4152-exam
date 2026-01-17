@@ -7,7 +7,7 @@
 
 ## Problem
 
-Jieun wants to play a musical score of length **N** using **K** (K ≤ N) music boxes. The score is a string of length N consisting of digits from 0 to 9. She plans to divide the score into K non-empty consecutive segments and assign each segment to one music box.
+Jieun wants to play a musical score of length **N** using **K** (K ≤ N) music boxes. The score is a string of length N consisting of digits from 0 to 9. She plans to divide the score into K non-empty consecutive segments and assign each segment to one music box, and each music box is assigned to exactly one segment.
 
 Each music box can only play a digit pattern that is stored in it, repeated infinitely. For example, if a music box stores `"123"`, then it will play the sequence `"123123123..."`.
 
