@@ -204,6 +204,15 @@ def star_tree(N):
         ret.append([cur, i])
     return ret
 
+def star_tree2(N):
+    ret = []
+    for i in range(2, N-10):
+        ret.append([1, i])
+    for i in range(N-10, N+1):
+        cur = random.randint(1, i-1)
+        ret.append([cur, i])
+    return ret
+
 def random_graph(N, func=random_tree):
     ret = func(N)
     st = set()
@@ -320,3 +329,4 @@ if __name__ == "__main__":
     write_file(N, -1, plusarr(rw(N)), random_graph(N, func=star_tree), sub=3)
     write_file(N, -1, plusarr(rw(N)), snipe_sqrt(N, func=star_tree, P=20000), sub=3)
     write_file(N, -1, plusarr(rw(N)), snipe_sqrt(N, func=star_tree, P=20), sub=3)
+    write_file(N, -1, plusarr(rw(N)), star_tree2(N), sub=3)
